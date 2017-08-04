@@ -1,9 +1,10 @@
 # WHCAnimalDemo
 弹力碰撞小动画
 
-//实现动画 \n
+![image](https://github.com/Wanghongchao12138/WHCAnimalDemo/blob/master/Animal.gif)   
+
+//实现动画 
 @property (nonatomic, strong)UIDynamicAnimator *dynamicAnimator;
-\n
 
 //动画元素行为
 @property (nonatomic, strong)UIDynamicItemBehavior *dynamicItemBehavior;
