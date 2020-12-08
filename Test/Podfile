@@ -1,0 +1,31 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+use_frameworks!
+
+target 'Test' do
+  pod 'Moya', '~> 14.0'
+  pod 'RxSwift', '~> 5.1'
+  pod 'RxCocoa', '~> 5.1'
+  pod 'HandyJSON', '~> 5.0.3-beta'
+  pod 'SwiftyJSON'
+  pod 'SwiftyStoreKit'
+  pod "ESTabBarController-swift"
+  pod 'pop'
+  pod 'MJRefresh'
+  pod 'SVGAPlayer', '~> 2.3'
+  pod 'YYText'
+  pod 'YYWebImage'
+  pod 'YYModel'
+  pod "DeallocationChecker"
+  pod "Qiniu", "~> 7.3"
+  pod 'HappyDNS', '0.3.16'
+  pod 'SwiftyAttributes'
+  pod 'MBProgressHUD'
+  pod 'FMDB'
+  pod 'GTSDK', '2.4.1.0-noidfa'
+  pod 'NTESQuickPass'
+  pod 'JXSegmentedView'
+  pod 'Bugly'
+end
